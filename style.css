@@ -374,6 +374,23 @@ body > section:last-child {
   text-indent: 22px;
 }
 
+.main-header2 {
+  font-weight: 700;
+  font-size: 2.13em;
+  line-height: 51px;
+  color: #22343d;
+  /* text-indent: 22px; */
+  display: flex;
+  justify-content: center;
+}
+
+.p-main-header2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+}
+
+
 .content-container > p {
   font-weight: 500;
   font-size: 1em;
@@ -405,7 +422,7 @@ body > section:last-child {
 }
 
 .section-row-3-cols-item-3 {
-  margin: 15px 0px 15px 10px;
+  margin: 15px 10px 15px 10px;
 }
 
 .main-header1 {
@@ -460,6 +477,142 @@ body > section:last-child {
   top: 520px;
   left: 535px
 
+}
+
+.card1, .card3 {
+  width: 322px;
+  height: 471px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.card2 {
+  width: 322px;
+  height: 471px;
+  border-radius: 8px;
+  background-color: #02897A;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.flex-column-7-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+}
+
+.free {
+  font-weight: 700;
+  font-size: 2em;;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.free-middle {
+  font-weight: 700;
+  font-size: 2em;;
+  line-height: 40px;
+  color: #fff;;
+}
+
+.h5 {
+  /* font-weight: 400;
+  font-size: 1em; */
+  line-height: 30px;
+  padding: 15px 15px 20px 7px;
+  color: #22343D;
+}
+
+.content-container > #section-row-3-cols > .section-row-3-cols-item-1 > .flex-column-7-rows > .h5 > h5 {
+  font-weight: 500;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container > #section-row-3-cols > .section-row-3-cols-item-2 > .flex-column-7-rows > .h5 > h5 {
+  font-weight: 500;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container > #section-row-3-cols > .section-row-3-cols-item-3 > .flex-column-7-rows > .h5 > h5 {
+  font-weight: 500;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mybutton {
+  margin-top: 10px;
+}
+
+.my1section {
+  padding-top: 50px;
+}
+
+.zero {
+  font-weight: 700;
+  font-size: 4.75em;
+  color:#02897A;
+  padding-right: 7px;
+}
+
+.zero-middle {
+  font-weight: 700;
+  font-size: 4.75em;
+  color:#fff;
+  padding-right: 7px;
+}
+
+.dolar {
+  color:#02897A;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.dolar-middle {
+  color:#fff;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.middle-first-text, .middle-second-text {
+  color: #fff;
+}
+
+.middle-button {
+  border: none;
+}
+
+.price {
+display: flex;
+align-items: center;
+text-align: left;
+}
+
+.gray {
+  color: #AFAFAF;
+}
+
+#card-1, #card-2, #card-3 {
+ margin: 26px;
+}
+
+.box {
+width: 20.44em;
+height: 14.75em;  
 }
 
 
@@ -548,17 +701,16 @@ body > section:last-child {
 
   .points {
     position: absolute;
-    top: 1240px;
+    top: 1340px;
     left:200px;
   }
 
   .relative-container{
-  /* .subtext, .subtext-second, .main-header1 { */
     max-width: 400px;
   }
 
   .relative-container > div {
-padding: 20px;
+    padding: 20px;
   }
 }
 
@@ -639,7 +791,7 @@ padding: 20px;
 
   .points {
     position: absolute;
-    top: 1255px;
+    top: 1300px;
     left:180px;
   }
 
