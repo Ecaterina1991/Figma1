@@ -387,7 +387,16 @@ body > section:last-child {
 .p-main-header2 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px 0 30px 0;
+}
+
+#p-main-header3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 30px 0;
+  
 }
 
 
@@ -612,7 +621,48 @@ text-align: left;
 
 .box {
 width: 20.44em;
-height: 14.75em;  
+height: 14.75em;
+border: 1px solid #DEDEDE;  
+background-color: E5E5E5;;
+}
+
+.stars {
+  width: 6.65em;
+  height: 1.15em;
+  padding: 28px 192px 9.6px 28px;
+}
+
+.product {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 28px;
+  color: #AFAFAF;
+  padding: 0 36px 0 16px;
+}
+
+.client {
+  width: 50px;
+  height: 50px;
+  margin-right: 7px;
+}
+
+.p-designer {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 24px;
+  color: #22343D;
+}
+
+.myname {
+  color: #02897A;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.client-designer {
+  padding: 22.35px 100px 23.65px 26px;
+
 }
 
 
@@ -711,6 +761,14 @@ height: 14.75em;
 
   .relative-container > div {
     padding: 20px;
+  }
+
+  #p-main-header3 {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  margin: 20px 0 30px 30px;
+
   }
 }
 
