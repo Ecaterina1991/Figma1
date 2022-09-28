@@ -563,8 +563,19 @@ body > section:last-child {
 }
 
 
-.mybutton {
-  margin-top: 10px;
+#mybutton {
+  background: #ffffff;
+  border-radius: 0.25em;
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #02897a;
+  border: none;
+  cursor: pointer;
+  padding: 10px 1.56em;
+  margin: 60px 0 50px 0; 
 }
 
 .my1section {
@@ -664,6 +675,35 @@ background-color: E5E5E5;;
   padding: 22.35px 100px 23.65px 26px;
 
 }
+
+#container {
+  display: flex;
+  flex-direction: row;
+  background-color: #02897A;
+  width: 60.5em;
+  height: 21.56em;
+  border-radius: 32px;
+  margin-left: 70px ;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 48.45px;
+  padding: 49px 0 25px 53px;
+
+}
+.mybutton {
+  border: none;
+  margin: 25px 0 49px 53px;
+  width: 200px;
+  height: 90px;
+
+}
+
 
 
 
@@ -770,6 +810,8 @@ background-color: E5E5E5;;
   margin: 20px 0 30px 30px;
 
   }
+
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -853,4 +895,54 @@ background-color: E5E5E5;;
     left:180px;
   }
 
+  #container {
+    display: flex;
+    flex-direction: column;
+    background-color: #02897A;
+    width: 371px;
+    height: 688px;
+    border-radius: 32px;
+    margin-left: 5px;
+    
+    
+  }
+
+  
+
+  .left-text-p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8em;
+  }
+
+  .left-text {
+    width: 328px;
+    height: 144px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px 5px 20px 5px;
+    margin-top: 15px;
+
+  }
+
+  #mybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px 40px 20px;
+  }
+
+ .right-image {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+   
+    width: 351px;
+    height: 331px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
 }
