@@ -696,8 +696,8 @@ background-color: E5E5E5;;
   font-size: 2em;
   line-height: 48.45px;
   padding: 49px 0 25px 53px;
-
 }
+
 .mybutton {
   border: none;
   margin: 25px 0 49px 53px;
@@ -715,13 +715,15 @@ background-color: E5E5E5;;
 .column-2-rows {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .first-row-4-cols {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .audio {
@@ -732,6 +734,7 @@ background-color: E5E5E5;;
 .last-section-img {
 width: 40px;
 height: 40px;
+margin-right: 20px;
 }
 
 .last-section-list {
@@ -739,24 +742,58 @@ height: 40px;
 }
 
 .last-section-list > li:nth-child(1) {
-  font-weight: bold;
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
 
 .text-last-section {
   font-size: 1.25em;
   line-height: 30px;
+  margin-left: 0px;
+  text-indent: none;
+  
 }
 
 .div-text-last-section {
   width: 17.5em;
   height: 3.56em;
-}
+  margin-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 0;
+  }
+
 
 .input-img {
   width: 20.31em;
   height: 3em;
+  margin-bottom: 20px;
 }
 
+.text-second-row {
+  font-size: 1em;
+  line-height: 30px;
+  padding-top: 40px;
+  color: #22343D;
+}
+
+.last-section-list > li {
+  font-size: 1em;
+  line-height: 35px;
+  color: #22343D;
+
+}
+
+.audio-product, .last-section-list {
+  padding-right: 100px;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 940px) {
   .left-text-p {
@@ -1006,12 +1043,9 @@ height: 40px;
     width: 371px;
     height: 688px;
     border-radius: 32px;
-    /* margin-left: 5px; */
-    
-    
+    margin-left: 12px;
+    /* margin-left: 5px; */ 
   }
-
-  
 
   .left-text-p {
     display: flex;
@@ -1040,13 +1074,35 @@ height: 40px;
   }
 
  .right-image {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-   
     width: 351px;
     height: 331px;
     margin-top: 40px;
     margin-bottom: 0;
   }
+
+  .first-row-4-cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+  .audio-product, .last-section-list, .div-text-last-section {
+    padding-top: 30px;
+    
+  }
+  
+  .second-row {
+/* margin-left: 45px; */
+    display: flex;
+    justify-content: center;
+
+  }
+  .last-section-right-col{
+    display: flex;
+    justify-content: center;
+    
+  }
+
 }
