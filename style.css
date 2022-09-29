@@ -580,6 +580,7 @@ body > section:last-child {
 
 .my1section {
   padding-top: 50px;
+
 }
 
 .zero {
@@ -795,10 +796,21 @@ margin-right: 20px;
   margin-left: 10px;
 }
 
+
+.my1section {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
 @media screen and (max-width: 940px) {
   .left-text-p {
    font-size: 0.7em;
   }
+
 }
 
 
@@ -883,6 +895,15 @@ margin-right: 20px;
     padding-top: 10px;
  }
 
+ #clients-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.56em;
+  height: 3.5em;
+  margin-left: 5px;
+}
+
   .points {
     position: absolute;
     top: 1340px;
@@ -897,13 +918,7 @@ margin-right: 20px;
     padding: 20px;
   }
 
-  #p-main-header3 {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-  margin: 20px 0 30px 30px;
-
-  }
+  
 
   
   #container {
@@ -1103,6 +1118,13 @@ margin-right: 20px;
     display: flex;
     justify-content: center;
     
+  }
+
+  .my1section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 }
