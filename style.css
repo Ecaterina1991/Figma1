@@ -804,6 +804,10 @@ margin-right: 20px;
   justify-content: center;
 }
 
+.last-section {
+  padding-top: 80px;
+}
+
 
 
 @media screen and (max-width: 940px) {
@@ -967,6 +971,31 @@ margin-right: 20px;
     margin-bottom: 0;
   }
 
+  .first-row-4-cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+  .audio-product, .last-section-list, .div-text-last-section {
+    padding-top: 30px;
+    
+  }
+  
+  .second-row {
+/* margin-left: 45px; */
+    display: flex;
+    justify-content: center;
+
+  }
+  .last-section-right-col{
+    display: flex;
+    justify-content: center;
+    
+  }
+
  
 }
 
@@ -1059,7 +1088,6 @@ margin-right: 20px;
     height: 688px;
     border-radius: 32px;
     margin-left: 12px;
-    /* margin-left: 5px; */ 
   }
 
   .left-text-p {
